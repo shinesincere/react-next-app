@@ -13,4 +13,7 @@ react-next-app> git push -u origin main
 react-next-app> code package.json 
   -> "type": "module"
   --> to prevent error with "export default nextConfig" in next.config.js  
+react-next-app> git add .
+react-next-app> git commit -m "updated next.config.js with export instead of module.exports"
+react-next-app> git push -u origin main
 
